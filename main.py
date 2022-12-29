@@ -1,7 +1,7 @@
 
 
 import pandas as pd
-import plotly.express as px
+# import plotly.express as px
 import streamlit as st
 
 # Reads Excel with a single time series
