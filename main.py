@@ -17,7 +17,7 @@ st.image('Pedro_Fernanda_Wurlitzer.jpg')
 
 st.image('Tomas_Fernanda_Wurlitzer.jpg')
 
-df = px.read_excel(
+df = pd.read_excel(
     io='planilha.xlsx',
     engine='openpyxl',
     sheet_name='carro',
