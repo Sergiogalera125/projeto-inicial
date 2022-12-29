@@ -12,7 +12,7 @@ st.set_page_config(page_title="vai timao",
                    layout="wide")
 st.title('Testando planilha excell')
 
-st.sidebar.title('World Happiness Index 2021:')
+st.sidebar.title('Zé Burguelas')
 
 st.image('Pedro_Fernanda_Wurlitzer.jpg')
 
