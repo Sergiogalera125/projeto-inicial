@@ -10,11 +10,11 @@ import pandas as pd
 
 st.set_page_config(page_title="vai timao",
                    layout="wide")
-st.title(“Testando planilha excell”)
+st.title('Testando planilha excell')
 
-st.sidebar.title(“World Happiness Index 2021:”)
+st.sidebar.title('World Happiness Index 2021:')
 
-st.image(“Pedro_Fernanda_Wurlitzer.jpg", caption=’Pedroca’)
+st.image('Pedro_Fernanda_Wurlitzer.jpg')
 
 excel_data_df = pd.read_excel('teste planilha.xlsx', sheet_name='Planilha1', usecols=['a', 'b','c','d','e','f'])
 print(excel_data_df)
