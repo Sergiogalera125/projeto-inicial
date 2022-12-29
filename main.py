@@ -21,4 +21,4 @@ st.image('Tomas_Fernanda_Wurlitzer.jpg')
 df = pd.read_excel("teste planilha.xlsx", sheet_name="Planilha1", usecols=['a', 'b','c','d','e','f'])
 #print(excel_data_df)
 
-st.write(filtered_df)
+st.write(df)
