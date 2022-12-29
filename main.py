@@ -1,6 +1,6 @@
 
 import streamlit as st
-
+import pandas as pd
 
 
 # Reads Excel with a single time series
@@ -9,4 +9,4 @@ import streamlit as st
 st.set_page_config(page_title="vai timao",
                    layout="wide")
 
-st.dataframe("oi")
+st.write("oi")
