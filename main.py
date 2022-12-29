@@ -1,9 +1,4 @@
-import xlrd as x1
-import matplotlib.pyplot as plt
-import xlsxwriter
-import numpy
-import math
-import statistics
+
 import streamlit as st
 
 
