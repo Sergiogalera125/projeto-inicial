@@ -17,5 +17,5 @@ st.sidebar.title('World Happiness Index 2021:')
 st.image('Pedro_Fernanda_Wurlitzer.jpg')
 
 #excel_data_df = pd.read_excel('teste planilha.xlsx', sheet_name='Planilha1', usecols=['a', 'b','c','d','e','f'])
-print(excel_data_df)
+#print(excel_data_df)
 
