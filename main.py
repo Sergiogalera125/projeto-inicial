@@ -1,6 +1,7 @@
 
 import streamlit as st
 import pandas as pd
+from st_aggrid import AgGrid
 
 
 # Reads Excel with a single time series
@@ -21,4 +22,6 @@ st.image('Tomas_Fernanda_Wurlitzer.jpg')
 df = pd.read_excel('teste planilha.xlsx', sheet_name='Planilha1')
 #print(excel_data_df)
 
-st.write(df)
+AgGrid(df)
+
+# st.write(df)
